@@ -1,9 +1,9 @@
 <?php
 
+use LaravelLux\Html\FormBuilder;
+use LaravelLux\Html\HtmlBuilder;
 use Watson\BootstrapForm\BootstrapForm;
 
-use Collective\Html\FormBuilder;
-use Collective\Html\HtmlBuilder;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Eloquent\Database\Model;
 use PHPUnit\Framework\TestCase;
